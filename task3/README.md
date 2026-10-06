@@ -161,6 +161,9 @@ The NumPy implementation required less code because the matrix multiplication is
 
 Both approaches have **O(n³)** time complexity for the standard matrix multiplication algorithm. In the small experiment, NumPy was faster than the Java implementation, but a larger benchmark would be needed for a more reliable performance comparison.
 
+Below I have just pasted the same task to ChatGPT and asked it to write a report in md file format. I specified using Java as a C-like language.
+
+
 ## ChatGPT Implementation
 
 After completing my own implementation of Task 3, I asked ChatGPT to solve the same task independently. I used Java as the C-like language and asked for an implementation using NumPy and Java, unit testing for the Java implementation, and an analysis of code size and execution time.
