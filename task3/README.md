@@ -2,6 +2,28 @@
 
 In this experiment, matrix multiplication is implemented using Python with NumPy and Java. The purpose is to compare the two implementations and analyze their code size and execution time. A unit test is also written for the Java implementation to make sure that the multiplication gives the correct result.
 
+## How To Test Yourself
+
+Open a terminal and go to the `code` folder:
+
+```bash
+cd code
+```
+
+### Java (macOS / Linux / Windows)
+
+```bash
+javac FileName.java
+java FileName
+```
+
+### Python
+
+| Environment | Command |
+|-------------|---------|
+| macOS / Linux | `python3 FileName.py` |
+| Windows | `python FileName.py` |
+
 # NumPy Implementation
 
 First, matrix multiplication was implemented using NumPy. NumPy provides the `@` operator for matrix multiplication.

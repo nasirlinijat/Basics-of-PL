@@ -1,5 +1,26 @@
 # Introduction
 The task requires visualizing matrices and their slices in two languages, then comparing the results. All the files related to this experiment are placed under the code folder. The images generated throughout this experiment are also placed under the image folder.
+## How To Test Yourself
+
+Open a terminal and go to the `code` folder:
+
+```bash
+cd code
+```
+
+### Java (macOS / Linux / Windows)
+
+```bash
+javac FileName.java
+java FileName
+```
+
+### Python
+
+| Environment | Command |
+|-------------|---------|
+| macOS / Linux | `python3 FileName.py` |
+| Windows | `python FileName.py` |
 
 ## What is a matrix?
 A matrix is a 2-dimensional array. In this experiment, the matrix is converted to colors to generate an image.
