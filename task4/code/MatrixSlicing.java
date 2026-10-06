@@ -1,5 +1,8 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+
 public class MatrixSlicing {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         int[][] matrix = {
                 { 0, 1, 2, 3, 4, 5 },
                 { 6, 7, 8, 9, 10, 11 },
@@ -15,6 +18,17 @@ public class MatrixSlicing {
                 System.out.print(slice[i][j] + " ");
             }
             System.out.println();
+        }
+
+        try (PrintWriter pw = new PrintWriter("./java_slice.csv")) {
+            for (int[] row : slice) {
+                StringBuilder sb = new StringBuilder();
+                for (int j = 0; j < row.length; j++) {
+                    if (j > 0) sb.append(",");
+                    sb.append(row[j]);
+                }
+                pw.println(sb);
+            }
         }
     }
 
